@@ -1,0 +1,15 @@
+name: PrefixSystem
+version: '${version}'
+main: at.mathh40.prefixsystem.PrefixSystem
+api-version: 1.19
+authors: [ mathh40 ]
+description: A PrefixSystem
+depend: [PlaceholderAPI,LuckPerms] # If your plugin requires PlaceholderAPI, to work, use this.
+commands:
+  prefix:
+    description: Change your Prefix
+    usage: /prefix [color/reset]
+    permission: prefix.use
+permissions:
+  prefix.use:
+    default: true
